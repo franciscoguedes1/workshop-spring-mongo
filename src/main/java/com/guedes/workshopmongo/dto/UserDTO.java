@@ -1,13 +1,11 @@
 package com.guedes.workshopmongo.dto;
 
 import java.io.Serializable;
-
 import com.guedes.workshopmongo.domain.User;
 
-public class UserDTO implements Serializable{
+public class UserDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
-	
+
 	private String id;
 	private String name;
 	private String email;
@@ -48,5 +46,4 @@ public class UserDTO implements Serializable{
 		this.email = email;
 	}
 
-	
 }
